@@ -3,6 +3,7 @@ Control Flow , Loops , Lists, Tuples , Dictionary , The Set & Frozenset
 
 
 📘 Definition: Control Flow in Python
+
 Control flow in Python refers to the order in which individual statements, instructions, or function calls are executed or evaluated.
 
 Python provides control flow tools to make decisions, repeat actions, and control which parts of code are run based on conditions.
@@ -21,6 +22,7 @@ try, except – for handling errors (exception control flow)
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 🔁 Definition: Loops in Python
+
 Loops in Python are used to execute a block of code repeatedly as long as a condition is met or while iterating over a sequence (like a list or range).
 
 Loops help automate repetitive tasks without writing the same code multiple times.
@@ -51,6 +53,7 @@ Make programs efficient and scalable
 
 
 📋 Definition: List in Python
+
 A list in Python is an ordered, mutable (changeable), and iterable collection that can store multiple items in a single variable. Items in a list can be of any data type—strings, numbers, even other lists.
 
 Lists are defined using square brackets:
@@ -72,6 +75,7 @@ Dynamic – You can grow or shrink them during runtime.
 
 
 📦 Definition: Tuple in Python
+
 A tuple in Python is an ordered, immutable (unchangeable) collection of items. Tuples are similar to lists, but unlike lists, you cannot change, add, or remove items once a tuple is created.
 
 Tuples are defined using round brackets:
@@ -111,7 +115,8 @@ colors[0] = "yellow"
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-📘 Definition: Dictionary in Python:-
+📘 Definition: Dictionary in Python
+
 A dictionary in Python is an unordered, mutable collection used to store data in key-value pairs.
 
 Dictionaries are defined using curly braces {} with each item represented as a key: value pair.
@@ -158,6 +163,7 @@ Use dictionaries when you want to label or associate values with meaningful keys
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🔷 Definition: Set in Python
+
 A set in Python is an unordered, mutable collection of unique elements. Sets are useful when you want to store multiple items without duplicates and perform mathematical set operations like union, intersection, and difference.
 
 Sets are defined using curly braces {} or the set() constructor:
@@ -211,6 +217,7 @@ Sets do not support indexing like lists or tuples.
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 🧊 Definition: frozenset in Python
+
 A frozenset is an immutable version of a set. Like a regular set, it contains unique, unordered elements, but once created, you cannot change it—you can’t add or remove items.
 
 It’s useful when you need a set that must not be modified, such as when using it as a key in a dictionary or storing it in another set.
